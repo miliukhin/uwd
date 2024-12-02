@@ -3,6 +3,10 @@
 uwd looks up given word in various web dictionaries. Uses
 html2text, mdr and w3m for displaying results.
 
+## Install
+
+`sudo make install`
+
 ## Usage
 
 ```

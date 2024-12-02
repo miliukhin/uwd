@@ -1,0 +1,43 @@
+.TH UWD 1 ukrainian-web-dictionaries
+.SH NAME
+uwd \- command-line interface for Ukrainian Web Dictionaries
+.SH SYNOPSIS
+.B
+[
+.I OPTIONS
+]
+[word]
+.SH DESCRIPTION
+.B uwd
+looks up given word in various web dictionaries. Uses html2text, mdr and w3m for displaying results.
+.SH COMMANDS
+.TP
+.B -v
+query vesum.nlp.net.ua for word's cases
+.TP
+.B -e
+query e2u.org.ua for ukrainian-english translations - default
+.TP
+.B -c
+get
+.B cadictua
+to scrape lcorp.ulif.org.ua/dictua for cases table and display using
+.B w3m
+.TP
+.B -r
+get russian-ukrainian translations from r2u.org.ua
+.TP
+.B -d
+get word's definition from sum.in.ua
+.TP
+.B -h
+display help message and exit
+.TP
+.B -i
+install dependencies (soon to be removed)
+.SH AUTHORS
+Written by Oleksandr Miliukhin <oleksandr@danwin1210.de> originally in 2023.
+.SH LICENSE
+GPLv3
+.SH SEE ALSO
+.BR w3m (1)

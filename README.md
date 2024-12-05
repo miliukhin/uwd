@@ -5,7 +5,14 @@ html2text, mdr and w3m for displaying results.
 
 ## Install
 
-`sudo make install`
+Make dependencies: git go
+Dependencies: mdr w3m html2text sed
+
+Just run make:
+
+```
+sudo make install
+```
 
 ## Usage
 

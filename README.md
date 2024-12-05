@@ -5,14 +5,19 @@ html2text, mdr and w3m for displaying results.
 
 ## Install
 
-Make dependencies: git go
-Dependencies: mdr w3m html2text sed
+Make dependencies
+: git go
+
+Dependencies
+: mdr w3m html2text sed
 
 Just run make:
 
 ```
 sudo make install
 ```
+
+Users of Arch-based distributions can get uwd from AUR: [uwd-git](https://aur.archlinux.org/packages/uwd-git).
 
 ## Usage
 
